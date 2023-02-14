@@ -1,0 +1,75 @@
+.background {
+	padding: 100px 0px;
+}
+
+.subcontainer {
+	height: auto;
+	width: 100%;
+	max-width: 1700px;
+	gap: 25px;
+	padding: 85px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.firstbox {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.secondbox {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.btnContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	position: absolute;
+	left: 15px;
+	bottom: -75px;
+}
+.button {
+	height: 60px;
+	width: 250px;
+	font-size: 22px;
+	margin: 5px;
+	border-radius: 10px;
+	border: 1px solid var(--contrast);
+	color: var(--secondaryBackground);
+	background-color: var(--contrast);
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+}
+
+@media (min-width: 900px) {
+	.firstbox {
+		align-items: flex-start;
+	}
+	.firstbox > p {
+		align-items: flex-start;
+		text-align: start;
+	}
+	.secondbox {
+		align-items: flex-end;
+	}
+	.secondbox > p {
+		align-items: flex-end;
+		text-align: end;
+	}
+}

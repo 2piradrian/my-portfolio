@@ -65,7 +65,7 @@
 		color: var(--contrast);
 	}
 
-	a:hover::after {
+	.navRoutes > a:hover::after {
 		content: "";
 		position: relative;
 		width: 100%;
