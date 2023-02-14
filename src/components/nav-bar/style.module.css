@@ -1,0 +1,98 @@
+@import url(../../global/var.css);
+
+.navBox {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	background-color: var(--background);
+}
+
+.close {
+	font-size: 30px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+	color: var(--contrast);
+}
+
+.navList {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.navRoutes {
+	width: 100%;
+	margin: 15px 0px;
+	text-align: center;
+	list-style: none;
+	font-size: 35px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+@media (min-width: 900px) {
+	.close {
+		display: none;
+	}
+	.navBox {
+		height: auto;
+		width: auto;
+		position: initial;
+		background-color: transparent;
+	}
+	.navList {
+		width: auto;
+		flex-direction: row;
+		gap: 15px;
+	}
+	.navRoutes {
+		width: auto;
+		font-size: 18px;
+	}
+	.navRoutes > a {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: var(--contrast);
+	}
+
+	a:hover::after {
+		content: "";
+		position: relative;
+		width: 100%;
+		margin-top: -2px;
+		top: 5px;
+		height: 2px;
+		background-color: var(--main);
+		animation-name: navHover;
+		animation-duration: 0.2s;
+		animation-timing-function: ease-out;
+	}
+}
+
+@keyframes navHover {
+	0% {
+		width: 0%;
+	}
+	15% {
+		width: 15%;
+	}
+	50% {
+		width: 50%;
+	}
+	65% {
+		width: 60%;
+	}
+	100% {
+		width: 100%;
+	}
+}

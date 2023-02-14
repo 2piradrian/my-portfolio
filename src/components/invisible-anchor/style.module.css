@@ -1,0 +1,10 @@
+@import url(../../global/var.css);
+
+.anchor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: var(--contrast);
+	cursor: pointer;
+}

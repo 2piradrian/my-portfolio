@@ -1,0 +1,11 @@
+:root {
+	--main: #eb5e28;
+	--secondary: #e46d6d;
+	--tertiary: #e46d6d;
+	--background: #212121;
+	--secondaryBackground: #252422;
+	--tertiaryBackground: #403d39;
+	--contrast: #ffffff;
+	--secondaryContrast: #fffcf2;
+	--tertiaryContrast: #ccc5b9;
+}

@@ -1,0 +1,72 @@
+.subcontainer {
+	height: auto;
+	width: 100%;
+	max-width: 1700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.subcontainer span {
+	color: var(--main);
+}
+
+.titleContainer {
+	margin: 70px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 32px;
+	font-weight: 600;
+	color: var(--contrast);
+}
+
+.circleDecoration {
+	height: auto;
+	overflow-y: hidden;
+	width: 75%;
+	max-width: 400px;
+	animation: rotation 25s infinite linear;
+	font-family: "Urbanist", sans-serif;
+}
+
+@media (min-width: 500px) {
+	.title {
+		font-size: 38px;
+	}
+}
+@media (min-width: 600px) {
+	.title {
+		font-size: 42px;
+	}
+}
+@media (min-width: 900px) {
+	.title {
+		width: 100%;
+		text-align: start;
+		font-size: 46px;
+	}
+	.subcontainer {
+		padding: 60px 0px;
+		flex-direction: row;
+	}
+}
+@media (min-width: 1200px) {
+	.title {
+		font-size: 50px;
+	}
+}
+
+@keyframes rotation {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
