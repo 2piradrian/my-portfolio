@@ -1,0 +1,33 @@
+.background {
+	background-color: var(--secondaryBackground);
+}
+
+.subcontainer {
+	height: auto;
+	width: 100%;
+	margin: 50px 0px;
+	max-width: 1700px;
+	gap: 25px;
+	padding: 0px 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.divisor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+}
+
+.divisor > a {
+	color: var(--contrast);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.divisor > a > svg {
+	font-size: 70px;
+}

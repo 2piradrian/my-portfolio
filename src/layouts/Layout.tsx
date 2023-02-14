@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../sections/footer/Footer";
 import Header from "../sections/header/Header";
 
 type Props = {
@@ -10,6 +11,7 @@ function Layout({ children }: Props) {
 		<>
 			<Header />
 			<main>{children}</main>;
+			<Footer />
 		</>
 	);
 }
