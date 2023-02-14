@@ -1,0 +1,15 @@
+.subcontainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.techDivisor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+}
