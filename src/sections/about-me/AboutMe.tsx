@@ -36,7 +36,7 @@ function AboutMe() {
 						className={style.button}>
 						Descargar CV
 					</a>
-					<a href="/blog" className={style.button}>
+					<a href="/blogs" className={style.button}>
 						Mi Blog
 					</a>
 				</div>
