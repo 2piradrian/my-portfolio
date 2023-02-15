@@ -1,0 +1,8 @@
+.subcontainer {
+	width: 100%;
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}

@@ -21,12 +21,12 @@ function Navbar({ setClosed }: Props) {
 					</InvisibleAnchor>
 				</li>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/portfolio">
+					<InvisibleAnchor url="/home#projects">
 						Proyectos
 					</InvisibleAnchor>
 				</li>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/home#team">Blog</InvisibleAnchor>
+					<InvisibleAnchor url="/blogs">Blog</InvisibleAnchor>
 				</li>
 				<li className={style.navRoutes}>
 					<InvisibleAnchor url="/home#contact">
