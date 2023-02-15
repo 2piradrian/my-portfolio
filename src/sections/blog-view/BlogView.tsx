@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
 import Error from "../../components/error/Error";
-import { BlogsArray } from "./../../database/Blogs";
+import { blogsArray } from "./../../database/Blogs";
 import style from "./blogview.module.css";
 
 function BlogView() {
 	let { id } = useParams();
-	const blog = BlogsArray.filter((blog) => blog.id === +id!);
+	const blog = blogsArray.filter((blog) => blog.id === +id!);
 
 	if (!blog.length) {
 		return <Error />;

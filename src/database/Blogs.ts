@@ -6,7 +6,7 @@ type Blog = {
 	content: string;
 };
 
-export const BlogsArray: Blog[] = [
+export const blogsArray: Blog[] = [
 	{
 		id: 0,
 		post: require("../assets/blog/0/post.png"),

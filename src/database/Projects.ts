@@ -7,7 +7,7 @@ type Project = {
 	techs: Array<string>;
 };
 
-export const ProjectArray: Project[] = [
+export const projectsArray: Project[] = [
 	{
 		id: 0,
 		img: require("../assets/projects/img1.png"),

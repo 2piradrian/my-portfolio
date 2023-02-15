@@ -1,0 +1,18 @@
+.background {
+	margin: 15px;
+	width: 80%;
+	max-width: 1100px;
+	border-radius: 15px;
+	background-color: var(--contrast);
+}
+
+.subcontainer {
+	height: 100%;
+	width: 100%;
+	padding: 30px;
+	gap: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}

@@ -1,5 +1,5 @@
 import Title from "../../components/title/Title";
-import { ProjectArray } from "../../database/Projects";
+import { projectsArray } from "../../database/Projects";
 import ProjectCard from "./../../components/project-card/ProjectCard";
 import style from "./projects.module.css";
 
@@ -8,7 +8,7 @@ function Projects() {
 		<div className="bigcontainer" id="projects">
 			<Title text="<Mis proyectos />" />
 			<div className={style.subcontainer}>
-				{ProjectArray.map((project) => (
+				{projectsArray.map((project) => (
 					<ProjectCard key={project.id} {...project} />
 				))}
 			</div>
