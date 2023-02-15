@@ -21,7 +21,7 @@ export const ProjectArray: Project[] = [
 		img: require("../assets/projects/img0.png"),
 		title: "Task manager",
 		description:
-			"Una app para organizar mejor los tiempos de estudio/trabajo y descanso. ",
+			"Una app para organizar los tiempos de estudio/trabajo y descanso. ",
 		github: "https://github.com/2piradrian/pomodoro-taskmanager",
 		techs: ["VERCEL", "JS"],
 	},

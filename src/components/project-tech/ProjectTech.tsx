@@ -2,6 +2,7 @@ import { DiGithubBadge } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import {
+	SiFirebase,
 	SiRedux,
 	SiStyledcomponents,
 	SiTypescript,
@@ -28,6 +29,8 @@ function ProjectTechs({ tech }: Props) {
 			return <SiRedux />;
 		case "STYLED":
 			return <SiStyledcomponents />;
+		case "FIREBASE":
+			return <SiFirebase />;
 		default:
 			return <p>{tech}</p>;
 	}

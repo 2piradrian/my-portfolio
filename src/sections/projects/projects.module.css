@@ -1,0 +1,11 @@
+.subcontainer {
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
