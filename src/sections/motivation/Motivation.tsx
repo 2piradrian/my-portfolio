@@ -15,7 +15,7 @@ function Motivation() {
 						desde las peores prácticas, a tener un código cada vez más prolijo. Lo
 						desarrollé en C++ y Kotlin, aunque aún está en etapa de pruebas."
 					/>
-					<a href="/blog">Conocé la historia completa.</a>
+					<a href="/blogs">Conocé la historia completa.</a>
 				</div>
 				<img src={screen} alt="project" />
 			</div>
