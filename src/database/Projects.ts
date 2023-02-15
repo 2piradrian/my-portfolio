@@ -30,7 +30,7 @@ export const ProjectArray: Project[] = [
 		img: require("../assets/projects/img4.png"),
 		title: "C-Swap",
 		description: "Portfolio de mi equipo freelance",
-		github: "https://github.com/2piradrian/CalculatorApp",
+		github: "https://github.com/2piradrian/cswap-web",
 		techs: ["VERCEL", "TS", "REACT"],
 	},
 	{
