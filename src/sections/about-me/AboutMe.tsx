@@ -6,7 +6,7 @@ import style from "./aboutme.module.css";
 
 function AboutMe() {
 	return (
-		<div className={`bigcontainer ${style.background}`}>
+		<div className={`bigcontainer ${style.background}`} id="about">
 			<div className={style.subcontainer}>
 				<div className={style.firstbox}>
 					<Title text="<Sobre Mi />" />

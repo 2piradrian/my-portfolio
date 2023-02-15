@@ -5,7 +5,7 @@ import style from "./projects.module.css";
 
 function Projects() {
 	return (
-		<div className="bigcontainer">
+		<div className="bigcontainer" id="projects">
 			<Title text="<Mis proyectos />" />
 			<div className={style.subcontainer}>
 				{ProjectArray.map((project) => (

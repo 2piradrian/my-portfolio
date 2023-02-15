@@ -6,7 +6,7 @@ import style from "./footer.module.css";
 
 function Footer() {
 	return (
-		<div className={`smallcontainer ${style.background}`}>
+		<div className={`smallcontainer ${style.background}`} id="contact">
 			<div className={style.subcontainer}>
 				<div className={style.divisor}>
 					<a
