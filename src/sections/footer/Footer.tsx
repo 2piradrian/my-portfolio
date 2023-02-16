@@ -6,7 +6,7 @@ import style from "./footer.module.css";
 
 function Footer() {
 	return (
-		<div className={`smallcontainer ${style.background}`} id="contact">
+		<footer className={`smallcontainer ${style.background}`} id="contact">
 			<div className={style.subcontainer}>
 				<div className={style.divisor}>
 					<a
@@ -37,7 +37,7 @@ function Footer() {
 					</a>
 				</div>
 			</div>
-		</div>
+		</footer>
 	);
 }
 
