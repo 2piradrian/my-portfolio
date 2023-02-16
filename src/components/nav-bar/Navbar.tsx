@@ -16,20 +16,22 @@ function Navbar({ setClosed }: Props) {
 			<AiOutlineClose className={style.close} />
 			<ul className={style.navList}>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/home#about">
+					<InvisibleAnchor url="/home#about" label="sobre mi">
 						Sobre Mi
 					</InvisibleAnchor>
 				</li>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/home#projects">
+					<InvisibleAnchor url="/home#projects" label="mis proyectos">
 						Proyectos
 					</InvisibleAnchor>
 				</li>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/blogs">Blog</InvisibleAnchor>
+					<InvisibleAnchor url="/blogs" label="mi blog">
+						Blog
+					</InvisibleAnchor>
 				</li>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/home#contact">
+					<InvisibleAnchor url="/home#contact" label="contáctame">
 						Contacto
 					</InvisibleAnchor>
 				</li>

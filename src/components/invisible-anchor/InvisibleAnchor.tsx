@@ -6,11 +6,16 @@ type Props = {
 	styles?: string;
 	url: string;
 	target?: string;
+	label: string;
 };
 
-function InvisibleAnchor({ children, styles, url, target }: Props) {
+function InvisibleAnchor({ children, styles, url, target, label }: Props) {
 	return (
-		<a href={url} target={target} className={`${style.anchor} ${styles}`}>
+		<a
+			href={url}
+			target={target}
+			aria-label={""}
+			className={`${style.anchor} ${styles}`}>
 			{children}
 		</a>
 	);

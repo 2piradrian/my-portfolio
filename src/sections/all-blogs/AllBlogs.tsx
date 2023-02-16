@@ -10,7 +10,9 @@ function AllBlogs() {
 			<Title text="<Mi Blog />" />
 			<div className={style.subcontainer}>
 				{blogsArray.map((blog) => (
-					<InvisibleAnchor url={`/blog/${blog.id}`}>
+					<InvisibleAnchor
+						label="ir al blog"
+						url={`/blog/${blog.id}`}>
 						<BlogCard {...blog} key={blog.id} />
 					</InvisibleAnchor>
 				))}

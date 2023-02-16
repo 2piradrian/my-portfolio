@@ -33,10 +33,14 @@ function AboutMe() {
 						target="_blank"
 						rel="noopener noreferrer"
 						download="cv_rodriguez.pdf"
+						aria-label="descargar cv"
 						className={style.button}>
 						Descargar CV
 					</a>
-					<a href="/blogs" className={style.button}>
+					<a
+						href="/blogs"
+						className={style.button}
+						aria-label="mi blog">
 						Mi Blog
 					</a>
 				</div>
