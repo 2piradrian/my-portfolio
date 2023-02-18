@@ -1,5 +1,5 @@
 import { AiOutlineClose } from "react-icons/ai";
-import InvisibleAnchor from "./../invisible-anchor/InvisibleAnchor";
+import { HashLink as Link } from "react-router-hash-link";
 import style from "./style.module.css";
 
 type Props = {
@@ -16,24 +16,24 @@ function Navbar({ setClosed }: Props) {
 			<AiOutlineClose className={style.close} />
 			<ul className={style.navList}>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/home#about" label="sobre mi">
+					<Link to="/home#about" aria-label="sobre mi">
 						Sobre Mi
-					</InvisibleAnchor>
+					</Link>
 				</li>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/home#projects" label="mis proyectos">
+					<Link to="/home#projects" aria-label="mis proyectos">
 						Proyectos
-					</InvisibleAnchor>
+					</Link>
 				</li>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/blogs" label="mi blog">
+					<Link to="/blogs" aria-label="mi blog">
 						Blog
-					</InvisibleAnchor>
+					</Link>
 				</li>
 				<li className={style.navRoutes}>
-					<InvisibleAnchor url="/home#contact" label="contáctame">
+					<Link to="/home#contact" aria-label="contáctame">
 						Contacto
-					</InvisibleAnchor>
+					</Link>
 				</li>
 			</ul>
 		</div>

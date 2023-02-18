@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { Link } from "react-router-dom";
 import logo from "../../assets/brand/Logo.svg";
-import InvisibleAnchor from "./../../components/invisible-anchor/InvisibleAnchor";
 import Navbar from "./../../components/nav-bar/Navbar";
 import style from "./header.module.css";
 
@@ -19,14 +19,15 @@ function Header() {
 	return (
 		<header className={`smallcontainer ${style.background}`}>
 			<div className={style.subcontainer}>
-				<InvisibleAnchor url="/home" label="home">
+				<Link to="/home" aria-label="página principal">
 					<img src={logo} className={style.iso} alt="isologotipo" />
-				</InvisibleAnchor>
+				</Link>
 
 				<RxHamburgerMenu
 					className={style.burger}
 					onClick={() => setClosed(false)}
 				/>
+
 				{!closed && <Navbar setClosed={setClosed} />}
 			</div>
 		</header>

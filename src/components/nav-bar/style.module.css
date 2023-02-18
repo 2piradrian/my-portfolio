@@ -38,6 +38,10 @@
 	letter-spacing: 1px;
 }
 
+.navRoutes > a {
+	text-decoration: none;
+}
+
 @media (min-width: 900px) {
 	.close {
 		display: none;

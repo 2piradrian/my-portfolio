@@ -1,7 +1,7 @@
+import { Link } from "react-router-dom";
 import BlogCard from "../../components/blog-card/BlogCard";
 import Title from "../../components/title/Title";
 import { blogsArray } from "../../database/Blogs";
-import InvisibleAnchor from "./../../components/invisible-anchor/InvisibleAnchor";
 import style from "./blogs.module.css";
 
 function AllBlogs() {
@@ -10,11 +10,9 @@ function AllBlogs() {
 			<Title text="<Mi Blog />" />
 			<div className={style.subcontainer}>
 				{blogsArray.map((blog) => (
-					<InvisibleAnchor
-						label="ir al blog"
-						url={`/blog/${blog.id}`}>
+					<Link aria-label="ir al blog" to={`/blog/${blog.id}`}>
 						<BlogCard {...blog} key={blog.id} />
-					</InvisibleAnchor>
+					</Link>
 				))}
 			</div>
 		</div>
