@@ -5,3 +5,9 @@
 	text-align: center;
 	color: var(--contrast);
 }
+
+@media (min-width: 900px) {
+	.text {
+		font-size: 22px;
+	}
+}

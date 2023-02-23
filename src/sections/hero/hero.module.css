@@ -60,6 +60,14 @@
 	.title {
 		font-size: 60px;
 	}
+	.circleDecoration {
+		max-width: 450px;
+	}
+}
+@media (min-width: 1500px) {
+	.title {
+		font-size: 68px;
+	}
 }
 
 @keyframes rotation {
