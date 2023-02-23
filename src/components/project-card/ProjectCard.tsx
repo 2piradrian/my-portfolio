@@ -19,7 +19,7 @@ function ProjectCard({ img, title, description, github, techs }: Props) {
 				<p>{description}</p>
 				<div className={style.iconContainer}>
 					{techs.map((tech) => (
-						<ProjectTechs tech={tech} />
+						<ProjectTechs tech={tech} key={tech} />
 					))}
 				</div>
 			</div>

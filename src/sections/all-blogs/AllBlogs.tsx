@@ -10,8 +10,8 @@ function AllBlogs() {
 			<Title text="<Mi Blog />" />
 			<div className={style.subcontainer}>
 				{blogsArray.map((blog) => (
-					<Link aria-label="ir al blog" to={`/blog/${blog.id}`}>
-						<BlogCard {...blog} key={blog.id} />
+					<Link aria-label="ir al blog" to={`/blog/${blog.id}`} key={blog.id}>
+						<BlogCard {...blog} />
 					</Link>
 				))}
 			</div>
