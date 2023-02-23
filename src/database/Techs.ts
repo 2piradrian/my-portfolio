@@ -127,11 +127,6 @@ export const toolsArray: Tech[] = [
 		img: vscode,
 	},
 	{
-		id: 18,
-		name: "Android Studio",
-		img: androidstudio,
-	},
-	{
 		id: 19,
 		name: "npm",
 		img: npm,

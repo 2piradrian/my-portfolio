@@ -6,7 +6,7 @@ import style from "./aboutme.module.css";
 
 function AboutMe() {
 	return (
-		<div className={`bigcontainer ${style.background}`} id="about">
+		<div className={`smallcontainer ${style.background}`} id="about">
 			<div className={style.subcontainer}>
 				<div className={style.firstbox}>
 					<Title text="<Sobre Mi />" />
@@ -37,10 +37,7 @@ function AboutMe() {
 						className={style.button}>
 						Descargar CV
 					</a>
-					<a
-						href="/blogs"
-						className={style.button}
-						aria-label="mi blog">
+					<a href="/blogs" className={style.button} aria-label="mi blog">
 						Mi Blog
 					</a>
 				</div>

@@ -5,7 +5,7 @@ import { backendArray, toolsArray } from "./../../database/Techs";
 
 function AllTechs() {
 	return (
-		<div className="bigcontainer">
+		<div className="smallcontainer">
 			<Title text="<Tecnologías />" />
 			<TechCard data={frontendArray} />
 			<TechCard data={backendArray} />
