@@ -13,7 +13,7 @@ export const projectsArray: Project[] = [
 		img: require("../assets/projects/img1.png"),
 		title: "Siete colores",
 		description: "E-commerce con redux.",
-		github: "https://github.com/2piradrian/siete-colores-3d",
+		github: "https://github.com/2piradrian/siete-colores-web",
 		techs: ["VERCEL", "TS", "REACT", "REDUX", "FIREBASE"],
 	},
 	{
