@@ -7,6 +7,16 @@
 	background-color: var(--contrast);
 	color: var(--background);
 	cursor: pointer;
+	transition: all 300ms linear;
+}
+
+.box:hover {
+	margin: 15px;
+	border: 1px solid var(--secondaryBackground);
+	color: var(--contrast);
+	background-color: var(--secondaryBackground);
+	position: relative;
+	transform: scale(1.1);
 }
 
 .box > img {
@@ -31,14 +41,12 @@
 	font-size: 28px;
 	margin: 5px 0px 10px 0px;
 	text-align: center;
-	color: var(--background);
 }
 
 .boxData > p {
 	width: 100%;
 	font-size: 15px;
 	text-align: center;
-	color: var(--background);
 }
 
 .iconContainer {

@@ -1,4 +1,5 @@
 import cv from "../../assets/curriculum/cv_rodriguez.pdf";
+import Decoration from "../../components/decoration/Decoration";
 import Tag from "../../components/tag-decoration/Tag";
 import Title from "../../components/title/Title";
 import LongText from "./../../components/long-text/LongText";
@@ -41,22 +42,7 @@ function AboutMe() {
 						Mi Blog
 					</a>
 				</div>
-				<Tag
-					content="<"
-					customStyle={{
-						position: "absolute",
-						top: 0,
-						left: "15px",
-					}}
-				/>
-				<Tag
-					content="/>"
-					customStyle={{
-						position: "absolute",
-						bottom: "-75px",
-						right: "15px",
-					}}
-				/>
+				<Decoration />
 			</div>
 		</div>
 	);
