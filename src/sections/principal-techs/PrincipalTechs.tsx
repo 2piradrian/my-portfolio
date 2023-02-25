@@ -12,19 +12,8 @@ function PrincipalTechs() {
 		<div className={`smallcontainer ${style.background}`}>
 			<div className={style.subcontainer}>
 				<div className={style.techDivisor}>
-					<CircleTech name="HTML">
-						<AiFillHtml5 />
-					</CircleTech>
-					<CircleTech name="CSS">
-						<DiCss3 />
-					</CircleTech>
 					<CircleTech name="JavaScript">
 						<IoLogoJavascript />
-					</CircleTech>
-				</div>
-				<div className={style.techDivisor}>
-					<CircleTech name="Git">
-						<FaGitAlt />
 					</CircleTech>
 					<CircleTech name="TypeScript">
 						<SiTypescript />
