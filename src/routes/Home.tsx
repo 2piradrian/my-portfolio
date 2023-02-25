@@ -10,7 +10,7 @@ function Home() {
 	return (
 		<Layout>
 			<Hero />
-			<PrincipalTechs />
+			{/* <PrincipalTechs /> */}
 			<AboutMe />
 			<AllTechs />
 			<Motivation />
