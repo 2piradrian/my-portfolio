@@ -42,7 +42,6 @@ html * {
 .smallcontainer {
 	height: auto;
 	width: 100%;
-	padding: 25px 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
